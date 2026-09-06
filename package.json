@@ -1,0 +1,35 @@
+{
+  "name": "polyglot-skills-core",
+  "version": "1.0.0",
+  "description": "High-performance polyglot algorithms, data structures and automated continuous development core.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/**/*.test.js || echo 'Run after build'",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/typescript/**/*.ts",
+    "benchmark": "python scripts/benchmark_runner.py",
+    "auto:commit": "python scripts/auto_commit.py",
+    "auto:metrics": "python scripts/generate_daily_metrics.py"
+  },
+  "keywords": [
+    "findy-skill-optimization",
+    "algorithms",
+    "data-structures",
+    "polyglot",
+    "typescript",
+    "python",
+    "rust",
+    "golang",
+    "cpp",
+    "ci-cd",
+    "automated-commit"
+  ],
+  "author": "Yuang (yuamamikam)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}

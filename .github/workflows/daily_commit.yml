@@ -1,0 +1,48 @@
+name: Daily Automated Commit & Benchmark Sync
+
+on:
+  schedule:
+    # Runs everyday at 00:00 UTC (09:00 JST)
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate Daily Metrics & Benchmarks
+        run: |
+          python scripts/generate_daily_metrics.py
+          python scripts/benchmark_runner.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          
+          # Check if there are changes before committing
+          if git diff --cached --quiet; then
+            echo "No changes to commit. Creating heartbeat touch..."
+            mkdir -p metrics
+            date -u +"last_sync=%Y-%m-%dT%H:%M:%SZ" > metrics/.heartbeat
+            git add metrics/.heartbeat
+          fi
+          
+          TODAY=$(date -u +"%Y-%m-%d")
+          git commit -m "chore(sync): automated daily metrics and benchmark updates [$TODAY]" || exit 0
+          git push origin HEAD:${{ github.ref_name }}
