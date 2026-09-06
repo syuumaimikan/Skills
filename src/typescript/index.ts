@@ -10,5 +10,6 @@
 
 export * from './data_structures/lru_lfu_cache.js';
 export * from './data_structures/red_black_tree.js';
+export * from './data_structures/merkle_tree.js';
 export * from './algorithms/graph_pathfinding.js';
 export * from './algorithms/reactive_event_bus.js';
