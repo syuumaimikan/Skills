@@ -6,7 +6,11 @@
 [![Findy Skill Score](https://img.shields.io/badge/Findy%20Skill-Optimized%20v3-00C48C?style=for-the-badge&logo=codewars)](docs/FINDY_OPTIMIZATION.md)
 [![Daily Commits](https://img.shields.io/badge/Auto%20Commits-Active-blue?style=for-the-badge&logo=git)](.github/workflows/daily_commit.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-[![Languages](https://img.shields.io/badge/Polyglot-TS%20%7C%20Rust%20%7C%20Py%20%7C%20Go%20%7C%20C%2B%2B-blueviolet?style=for-the-badge)](docs/ARCHITECTURE.md)
+[![Languages](https://img.shields.io/badge/Polyglot-TS%20%7C%20Rust%20%7C%20Py%20%7C%20Go%20%7C%20C%2B%2B%20%7C%20Kotlin%20%7C%20C%23-blueviolet?style=for-the-badge)](docs/ARCHITECTURE.md)
+
+<p align="center">
+  <img src="metrics/status_card.svg" alt="Polyglot Skills Engine Status" width="600"/>
+</p>
 
 <p align="center">
   <b>FindyのGitHubスキル偏差値を最大化するために設計された、高パフォーマンス多言語アルゴリズム・データ構造基盤 ＆ CI/CD自動コミットエンジン</b>
@@ -23,7 +27,7 @@
 本リポジトリは、**Findyのスキル偏差値（ver.3）評価アルゴリズムを徹底分析**し、以下のスコアリングシグナルを最大化するために設計された実践的プロジェクトです：
 
 1. **多言語展開（Polyglot Excellence）**:
-   - スキル偏差値の評価が高い主要言語（**Rust, TypeScript, Python, Go, C++**）における高度なアルゴリズム・並行処理・低レイヤメモリ最適化コードを完全網羅。
+   - スキル偏差値の評価が高い主要言語（**Rust, TypeScript, Python, Go, C++, Kotlin, C#**）における高度なアルゴリズム・並行処理・低レイヤメモリ最適化コードを完全網羅。
 2. **自動コミット・継続的草生やし（Continuous Automated Contributions）**:
    - GitHub Actionsによる**日次自動ベンチマーク測定＆コミット・プッシュ機構**（`.github/workflows/daily_commit.yml`）。
    - 意味のあるメトリクスやテレメトリを更新し、品質の高いConventional Commitsを自動生成。
