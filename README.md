@@ -9,7 +9,9 @@
 [![Languages](https://img.shields.io/badge/Polyglot-TS%20%7C%20Rust%20%7C%20Py%20%7C%20Go%20%7C%20C%2B%2B%20%7C%20Kotlin%20%7C%20C%23-blueviolet?style=for-the-badge)](docs/ARCHITECTURE.md)
 
 <p align="center">
-  <img src="metrics/status_card.svg" alt="Polyglot Skills Engine Status" width="600"/>
+  <img src="metrics/status_card.svg" alt="Polyglot Skills Engine Status" width="580"/>
+  <br/><br/>
+  <img src="metrics/language_matrix.svg" alt="Language Distribution" width="580"/>
 </p>
 
 <p align="center">

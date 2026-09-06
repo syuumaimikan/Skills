@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="291" viewBox="0 0 600 291">
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#171e2e" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="16" fill="url(#card-bg)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <text x="30" y="38" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="18" font-weight="bold">⚡ Polyglot Multi-Language Distribution</text>
+  <text x="570" y="38" fill="#38bdf8" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="600" text-anchor="end">Total: 2,869 LOC</text>
+  
+    <g transform="translate(30, 65)">
+      <text x="0" y="12" fill="#e2e8f0" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="600">TypeScript</text>
+      <rect x="110" y="0" width="320" height="14" rx="7" fill="rgba(255,255,255,0.06)"/>
+      <rect x="110" y="0" width="100" height="14" rx="7" fill="#3178c6"/>
+      <text x="445" y="12" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12">905 lines (31.5%)</text>
+    </g>
+    <g transform="translate(30, 93)">
+      <text x="0" y="12" fill="#e2e8f0" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="600">Python</text>
+      <rect x="110" y="0" width="320" height="14" rx="7" fill="rgba(255,255,255,0.06)"/>
+      <rect x="110" y="0" width="80" height="14" rx="7" fill="#3572A5"/>
+      <text x="445" y="12" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12">718 lines (25.0%)</text>
+    </g>
+    <g transform="translate(30, 121)">
+      <text x="0" y="12" fill="#e2e8f0" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="600">Rust</text>
+      <rect x="110" y="0" width="320" height="14" rx="7" fill="rgba(255,255,255,0.06)"/>
+      <rect x="110" y="0" width="62" height="14" rx="7" fill="#dea584"/>
+      <text x="445" y="12" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12">561 lines (19.6%)</text>
+    </g>
+    <g transform="translate(30, 149)">
+      <text x="0" y="12" fill="#e2e8f0" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="600">Go</text>
+      <rect x="110" y="0" width="320" height="14" rx="7" fill="rgba(255,255,255,0.06)"/>
+      <rect x="110" y="0" width="35" height="14" rx="7" fill="#00ADD8"/>
+      <text x="445" y="12" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12">319 lines (11.1%)</text>
+    </g>
+    <g transform="translate(30, 177)">
+      <text x="0" y="12" fill="#e2e8f0" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="600">C++</text>
+      <rect x="110" y="0" width="320" height="14" rx="7" fill="rgba(255,255,255,0.06)"/>
+      <rect x="110" y="0" width="20" height="14" rx="7" fill="#f34b7d"/>
+      <text x="445" y="12" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12">182 lines (6.3%)</text>
+    </g>
+    <g transform="translate(30, 205)">
+      <text x="0" y="12" fill="#e2e8f0" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="600">Kotlin</text>
+      <rect x="110" y="0" width="320" height="14" rx="7" fill="rgba(255,255,255,0.06)"/>
+      <rect x="110" y="0" width="13" height="14" rx="7" fill="#A97BFF"/>
+      <text x="445" y="12" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12">119 lines (4.1%)</text>
+    </g>
+    <g transform="translate(30, 233)">
+      <text x="0" y="12" fill="#e2e8f0" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="600">C#</text>
+      <rect x="110" y="0" width="320" height="14" rx="7" fill="rgba(255,255,255,0.06)"/>
+      <rect x="110" y="0" width="7" height="14" rx="7" fill="#178600"/>
+      <text x="445" y="12" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12">65 lines (2.3%)</text>
+    </g>
+</svg>

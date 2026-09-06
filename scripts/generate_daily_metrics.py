@@ -148,6 +148,13 @@ def update_metrics():
     with open(svg_file, "w", encoding="utf-8") as f:
         f.write(svg_content)
 
+    # Also update language matrix SVG
+    try:
+        from generate_profile_badge import generate_skill_matrix_svg
+        generate_skill_matrix_svg()
+    except Exception:
+        pass
+
     print(f"✅ Daily metrics & SVG status card updated successfully for {today}.")
     print(f"📊 Total Code Lines: {total_lines}")
     return daily_record
