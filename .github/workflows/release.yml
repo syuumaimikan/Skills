@@ -1,0 +1,38 @@
+name: Automated Release & Asset Packaging
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate Release Telemetry & Benchmarks
+        run: |
+          python scripts/generate_daily_metrics.py
+          python scripts/benchmark_runner.py
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          generate_release_notes: true
+          files: |
+            docs/BENCHMARKS.md
+            metrics/latest_summary.json
+            metrics/status_card.svg

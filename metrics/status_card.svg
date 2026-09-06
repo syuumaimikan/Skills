@@ -16,7 +16,7 @@
   
   <rect x="30" y="65" width="540" height="8" rx="4" fill="url(#bar)" />
 
-  <text x="30" y="105" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14">Total Lines of Code: <tspan fill="#34d399" font-weight="bold">2,527</tspan></text>
+  <text x="30" y="105" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14">Total Lines of Code: <tspan fill="#34d399" font-weight="bold">2,701</tspan></text>
   <text x="30" y="132" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14">Languages Active: <tspan fill="#a78bfa" font-weight="bold">TypeScript, Python, Rust, Go, C++, Kotlin, C#</tspan></text>
   <text x="30" y="160" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14">CI Health &amp; Score Signal: <tspan fill="#38bdf8" font-weight="bold">OPTIMAL (99.8%)</tspan></text>
 
