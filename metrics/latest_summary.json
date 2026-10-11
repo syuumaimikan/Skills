@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-10",
-  "timestamp": "2026-10-10T04:14:13.405900+00:00",
+  "date": "2026-10-11",
+  "timestamp": "2026-10-11T03:52:43.249407+00:00",
   "environment": {
     "os": "Linux",
     "python_version": "3.11.17",
@@ -37,12 +37,12 @@
     }
   },
   "benchmark_metrics": {
-    "Rust_SIMD_DotProduct_Mops": 922.14,
-    "Rust_SPSC_RingBuffer_Ops_Sec": 47427088,
-    "TS_LRU_Cache_Ops_Sec": 3569711,
-    "Go_WorkerPool_Throughput_Ops_Sec": 4911881,
-    "Cpp_MemoryPool_1M_Alloc_Dealloc_ms": 3.16,
-    "Python_DP_LCS_Execution_ms": 14.64
+    "Rust_SIMD_DotProduct_Mops": 942.59,
+    "Rust_SPSC_RingBuffer_Ops_Sec": 46667827,
+    "TS_LRU_Cache_Ops_Sec": 3428792,
+    "Go_WorkerPool_Throughput_Ops_Sec": 5136599,
+    "Cpp_MemoryPool_1M_Alloc_Dealloc_ms": 2.96,
+    "Python_DP_LCS_Execution_ms": 23.15
   },
   "findy_score_signals": {
     "multi_language_distribution": [
